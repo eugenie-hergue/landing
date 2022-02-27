@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora|Roboto");
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+body{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+	h1, h2, h3 {
+	font-family: 'roboto', sans-serif;
+	font-weight: bold;
+	
+	} 
+	h1{
+		background-color: black;
+		background-size: inherit;
+
+	}
+	h2{
+		color: white;
+		background-color: black;
+	}
+
+	h5{
+		font-size: 25px;
+		font-family: 'Lora';
+		font-display: auto;
+		color: lightcoral;
+	}
+img{
+	width: 300px;
+	height: 250px;
+	margin: 40px auto;
+	border-radius: 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	background-color: lightgray;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    margin: 20px 0px;
+
+}
+    
+
+a:hover{
+	color: black;
+}
